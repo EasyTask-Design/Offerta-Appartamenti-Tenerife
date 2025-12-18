@@ -1,0 +1,53 @@
+
+import { ServiceItem } from './types';
+
+export const TENERIFE_IMAGES = {
+  coast: "https://images.unsplash.com/photo-1585257000411-9686419741e5?auto=format&fit=crop&q=80&w=2000",
+  apartment: "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?auto=format&fit=crop&q=80&w=2000",
+  nature: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&q=80&w=2000",
+  sunset: "https://images.unsplash.com/photo-1543857508-3642337f766e?auto=format&fit=crop&q=80&w=2000",
+  aerial: "https://images.unsplash.com/photo-1512753360424-7ef826978168?auto=format&fit=crop&q=80&w=2000"
+};
+
+export const SERVICES_PRICE_LIST = [
+  { id: 'web_base', name: 'Sito Web Moderno (Base)', price: 1400, desc: 'Sito adattabile (ottimizzato per cellulari) con animazioni fluide e navigazione piacevole.' },
+  { id: 'multilang', name: 'Sistema Multilingua (IT, EN, ES)', price: 300, desc: 'Gestione professionale delle traduzioni (tramite sistema multilingua WPML).' },
+  { id: 'branding', name: 'Identità di Marca Completa', price: 600, desc: 'Logo, stile visivo, naming e grafiche coordinate.' },
+  { id: 'seo_ai', name: 'Posizionamento (SEO AI)', price: 400, desc: 'Farsi trovare su Google e sui motori basati su Intelligenza Artificiale.' },
+  { id: 'gmb_booster', name: 'GMB & Review Booster', price: 350, desc: 'Setup Google My Business e sistema QR/WhatsApp per scalare i ranking con le recensioni.' },
+  { id: 'print_design', name: 'Grafiche Volantini & Stickers', price: 250, desc: 'Design professionale per flyer plastificati e adesivi per camere e territorio.' },
+  { id: 'support_2yr', name: 'Supporto Sito (2 Anni)', price: 600, desc: 'Aggiornamenti sicurezza, plugin e assistenza per modifiche testi/foto (300€/anno).' },
+  { id: 'photo_edit', name: 'Ritocco Foto e Grafiche', price: 200, desc: 'Miglioramento colori e testi informativi sovrimpressi sulle vostre immagini.' },
+  { id: 'video_ai', name: 'Video Emozionale AI', price: 200, desc: 'Video cinematico creato con intelligenza artificiale per l\'accoglienza nel sito.' },
+  { id: 'whatsapp_ai', name: 'Assistente WhatsApp (AI)', price: 450, desc: 'Un risponditore intelligente che conosce ogni dettaglio dei vostri appartamenti.' },
+  { id: 'marketing_ads', name: 'Campagne Pubblicitarie Lancio', price: 400, desc: 'Pubblicità mirata su Google e YouTube per iniziare subito a ricevere contatti.' }
+];
+
+export const SERVICES: ServiceItem[] = [
+  {
+    id: 'web-dev',
+    title: 'Sito Web Professionale',
+    description: 'Sito web di alto livello, fluido e adattabile (funziona perfettamente su smartphone) e tradotto in 3 lingue.',
+    price: '€1.400',
+    category: 'core',
+    icon: 'Globe',
+    benefits: [
+      'Gestione di 2 appartamenti distinti in un unico ecosistema',
+      'Trilinguismo professionale (Italiano, Inglese, Spagnolo)',
+      'FAQ: Distanza mare, supermarket, trasporti e servizi',
+      'Regole casa chiare: cucina, fumo, animali domestici',
+      'Interfaccia focalizzata su WhatsApp/Email (Zero Commissioni)',
+      'Design Responsive (ottimizzato al 100% per cellulari)',
+      'Copywriting persuasivo multilingua ad alto impatto',
+      'Integrazione mappe interattive e punti di interesse'
+    ]
+  }
+];
+
+export const RECURRING_COSTS_TABLE = [
+  { item: 'OPZIONE A: SiteGround StartUp (Consigliato)', firstYear: '€35,88', afterFirstYear: '€191,88/anno', isAlternative: true },
+  { item: 'OPZIONE B: Hostinger Premium (Economico)', firstYear: '€35,88', afterFirstYear: '€119,88/anno', isAlternative: true },
+  { item: 'Dominio .com (Gestione Michele)', firstYear: 'Incluso/€15', afterFirstYear: '€19,99/anno', isAlternative: false },
+  { item: 'Licenza WPML (Traduzioni)', firstYear: '€99,00', afterFirstYear: 'Una Tantum*', isAlternative: false, note: '*Disdibile dopo la traduzione' },
+  { id: 'channel_manager', item: 'Channel Manager (Opzionale)', firstYear: '€120,00', afterFirstYear: '€120,00/anno', isAlternative: false }
+];
