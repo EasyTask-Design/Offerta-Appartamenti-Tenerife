@@ -10,17 +10,18 @@ export const TENERIFE_IMAGES = {
 };
 
 export const SERVICES_PRICE_LIST = [
-  { id: 'web_base', name: 'Sito Web Moderno (Base)', price: 1400, desc: 'Sito adattabile (ottimizzato per cellulari) con animazioni fluide e navigazione piacevole.' },
+  { id: 'web_advanced', name: 'Sito Web Moderno (Avanzato)', price: 1600, desc: 'Sito ad alto impatto, completamente personalizzato, con animazioni fluide e architettura avanzata.' },
+  { id: 'web_template', name: 'Sito Web Template Base', price: 1200, desc: 'Soluzione essenziale basata su template professionale, veloce ed efficace.' },
   { id: 'multilang', name: 'Sistema Multilingua (IT, EN, ES)', price: 300, desc: 'Gestione professionale delle traduzioni (tramite sistema multilingua WPML).' },
-  { id: 'branding', name: 'Identità di Marca Completa', price: 600, desc: 'Logo, stile visivo, naming e grafiche coordinate.' },
+  { id: 'branding', name: 'Identità di Marca Completa', price: 600, desc: 'Logo, stile visivo, palette colori e grafiche coordinate.' },
   { id: 'seo_ai', name: 'Posizionamento (SEO AI)', price: 400, desc: 'Farsi trovare su Google e sui motori basati su Intelligenza Artificiale.' },
   { id: 'gmb_booster', name: 'GMB & Review Booster', price: 350, desc: 'Setup Google My Business e sistema QR/WhatsApp per scalare i ranking con le recensioni.' },
-  { id: 'print_design', name: 'Grafiche Volantini & Stickers', price: 250, desc: 'Design professionale per flyer plastificati e adesivi per camere e territorio.' },
+  { id: 'print_design', name: 'Grafiche Volantini & Stickers', price: 350, desc: 'Design professionale per flyer plastificati e adesivi per camere e territorio.' },
   { id: 'support_2yr', name: 'Supporto Sito (2 Anni)', price: 600, desc: 'Aggiornamenti sicurezza, plugin e assistenza per modifiche testi/foto (300€/anno).' },
   { id: 'photo_edit', name: 'Ritocco Foto e Grafiche', price: 200, desc: 'Miglioramento colori e testi informativi sovrimpressi sulle vostre immagini.' },
   { id: 'video_ai', name: 'Video Emozionale AI', price: 200, desc: 'Video cinematico creato con intelligenza artificiale per l\'accoglienza nel sito.' },
   { id: 'whatsapp_ai', name: 'Assistente WhatsApp (AI)', price: 450, desc: 'Un risponditore intelligente che conosce ogni dettaglio dei vostri appartamenti.' },
-  { id: 'marketing_ads', name: 'Campagne Pubblicitarie Lancio', price: 400, desc: 'Pubblicità mirata su Google e YouTube per iniziare subito a ricevere contatti.' }
+  { id: 'marketing_ads', name: 'Campagne Pubblicitarie Google Ads', price: 400, desc: 'Pubblicità mirata su Google e YouTube per iniziare subito a ricevere contatti.' }
 ];
 
 export const SERVICES: ServiceItem[] = [
@@ -28,7 +29,7 @@ export const SERVICES: ServiceItem[] = [
     id: 'web-dev',
     title: 'Sito Web Professionale',
     description: 'Sito web di alto livello, fluido e adattabile (funziona perfettamente su smartphone) e tradotto in 3 lingue.',
-    price: '€1.400',
+    price: '€1.600',
     category: 'core',
     icon: 'Globe',
     benefits: [
@@ -39,15 +40,15 @@ export const SERVICES: ServiceItem[] = [
       'Interfaccia focalizzata su WhatsApp/Email (Zero Commissioni)',
       'Design Responsive (ottimizzato al 100% per cellulari)',
       'Copywriting persuasivo multilingua ad alto impatto',
-      'Integrazione mappe interattive e punti di interesse'
+      'Integrazione mappe interattive e punti di interesse',
+      'Sistema di prenotazione diretta senza intermediari'
     ]
   }
 ];
 
 export const RECURRING_COSTS_TABLE = [
-  { item: 'OPZIONE A: SiteGround StartUp (Consigliato)', firstYear: '€35,88', afterFirstYear: '€191,88/anno', isAlternative: true },
-  { item: 'OPZIONE B: Hostinger Premium (Economico)', firstYear: '€35,88', afterFirstYear: '€119,88/anno', isAlternative: true },
-  { item: 'Dominio .com (Gestione Michele)', firstYear: 'Incluso/€15', afterFirstYear: '€19,99/anno', isAlternative: false },
-  { item: 'Licenza WPML (Traduzioni)', firstYear: '€99,00', afterFirstYear: 'Una Tantum*', isAlternative: false, note: '*Disdibile dopo la traduzione' },
-  { id: 'channel_manager', item: 'Channel Manager (Opzionale)', firstYear: '€120,00', afterFirstYear: '€120,00/anno', isAlternative: false }
+  { item: 'Piano Hosting Premium (24 Mesi)', firstYear: '€74,16', afterFirstYear: '€9,99/mese', isAlternative: false },
+  { item: 'Registrazione Dominio .com (2 Anni)', firstYear: '€16,99', afterFirstYear: '€16,99/anno', isAlternative: false },
+  { item: 'Licenza WPML (Traduzioni)', firstYear: '€99,00', afterFirstYear: 'Una Tantum*', isAlternative: false },
+  { item: 'Channel Manager (Opzionale)', firstYear: '€120,00', afterFirstYear: '€120,00/anno', isAlternative: false }
 ];
