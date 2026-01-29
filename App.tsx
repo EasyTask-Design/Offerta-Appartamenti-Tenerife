@@ -154,7 +154,7 @@ const App: React.FC = () => {
             </span>
           </div>
           <span className="text-[10px] md:text-[11px] font-bold text-slate-400 uppercase tracking-widest pl-3.5">
-            DESIGNER & MARKETING
+            DESIGN & MARKETING
           </span>
         </div>
         <div className="flex items-center gap-3">
